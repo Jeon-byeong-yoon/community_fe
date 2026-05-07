@@ -1,5 +1,5 @@
 version: "1.0"
-linter: jetbrains/qodana-python:latest
+linter: jetbrains/qodana-python:2026.1
 profile:
   name: qodana.recommended
 fixesStrategy: apply
