@@ -8,7 +8,7 @@ def calculateArea(radius):
    return area
 
 def unused_variable_func():
-    x = 10
+    10
     y = 20
     # y is used, x is not
     return y
@@ -16,10 +16,11 @@ def unused_variable_func():
 def camelCaseFunction(  arg1,arg2 ):
     # Multiple style violations: spaces in parens, missing space after comma
     # Undefined variable
+    global result
     print(unknown_variable)
     
     # Line too long
-    long_string = "This is a very long string that will definitely exceed the typical line length limit of seventy-nine or eighty-eight characters in most python linters."
+    "This is a very long string that will definitely exceed the typical line length limit of seventy-nine or eighty-eight characters in most python linters."
     
     # Catching generic exception
     try:
